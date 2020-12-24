@@ -23,7 +23,7 @@ local featureDef	=	{
 	customparams = {
 		model_author = "ad0",
 		normalmaps = "yes",
-		normaltex = "unittextures/ad0senegal_normal.tga",
+		normaltex = "unittextures/ad0senegal_normal.dds",
 		treeshader = "yes",
 	},
 } 

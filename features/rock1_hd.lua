@@ -22,7 +22,7 @@ local featureDef	=	{
 	customparams = {
 		model_author = "MaDDoX",
 		--normalmaps = "yes",
-		--normaltex = "unittextures/rock_hd_normal.tga",
+		normaltex = "unittextures/rock_hd_normal.tga",
 		--treeshader = "yes",
 	},	
 }
