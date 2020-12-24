@@ -1,0 +1,30 @@
+local objectname= "palmtree03_hd" 
+local featureDef	=	{
+	name			= "palmtree03_hd",
+	world				="All Worlds",
+	description				="palmtree03_hd",
+	damage				= 100,	
+	category				="Vegetation",
+	object				="palmtree03_hd.s3o",
+	footprintx				=1,
+	footprintz				=1,
+	height				=30,
+	blocking				=true,
+	upright				=true,
+	hitdensity				=0,
+	energy				=250,
+	metal				=0,
+	mass				=20,
+	flammable				=true,
+	reclaimable				=true,
+	autoreclaimable				=true,
+	featurereclamate				="smudge01",
+	seqnamereclamate				="tree1reclamate",
+	customparams = {
+		model_author = "ad0",
+		normalmaps = "yes",
+		normaltex = "unittextures/ad0senegal_normal.tga",
+		treeshader = "yes",
+	},
+} 
+return lowerkeys({[objectname] = featureDef}) 
