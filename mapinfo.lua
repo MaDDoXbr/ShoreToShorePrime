@@ -145,31 +145,35 @@ local mapinfo = {
 --		grounddiffusecolor            = { 0.85, 0.85, 0.55 },
 
     
-		groundAmbientColor  = {1.25, 1.25, 1.25},--{0.7, 0.7, 0.7},
-		groundDiffuseColor  = {0.5, 0.5, 0.5}, --{0.9,0.8,0.82}, --{0.55, 0.7, 0.7},
+		groundAmbientColor  = {0.73, 0.64, 0.39},
+		groundDiffuseColor  = {0.9, 0.9, 0.9}, --{0.9,0.8,0.82}, --{0.55, 0.7, 0.7},
 		groundSpecularColor = {0.5, 0.5, 0.1}, --{0.2, 0.2, 0.2},
-		groundShadowDensity = 0.9,
+		groundShadowDensity = 1.2,
 	  	unitshadowdensity          = 0.9,
 		unitAmbientColor = {
-			  0.62,
+			  0.55,
 			  0.5,
-			  0.5,
+			  0.4,
 		},    
 		unitDiffuseColor = {
-			  1,
-			  0.9,
-			  0.9,
+			  0.2,
+			  0.15,
+			  0.125,		
+--			  0.4,
+--			  0.3,
+--			  0.25,
 			},
 		unitSpecularColor = {
-			  0.6,
 			  0.5,
-			  0.5,
+			  0.4,
+			  0.3,
 		},
 
 		--sunDir = {0.008, 0.95, 0.0, 0}, --{0.008, 0.556, -0.444, 1e9},
-		sunDir = {-0.25, 0.1, -0.33, 0}, -- x pos = from west, neg = from east
+		--sunDir = {-0.25, 0.1, -0.33, 0}, -- x pos = from west, neg = from east
 									 -- y => neg = metallic, focused; pos = scattered
 									 -- z pos = frontal, neg = away from start camera		
+		sunDir = {      0.1807599,      1,      -0.25, },
 		
 		specularsuncolor    = { 0.1, 0.1, 0.1 },
 		 
